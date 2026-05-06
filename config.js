@@ -1,7 +1,7 @@
 // config.js - Configuration file that can be edited without touching code
 const CONFIG = {
   // Change this to your backend URL when deploying
-  // API_URL: "http://localhost:5000/api",
+  //API_URL: "http://localhost:5000/api",
   API_URL: "https://blog-api-project-backend-iixp.onrender.com/api",
 
   // For production, uncomment and set your actual backend URL
