@@ -1,7 +1,10 @@
 // Import config (add this at the top of app.js)
 // Note: You'll need to include config.js before app.js in index.html
 
-const API_URL = window.CONFIG?.API_URL || "http://localhost:5000/api";
+// const API_URL = window.CONFIG?.API_URL || "http://localhost:5000/api";
+// app.js - Vite approach (no window object needed)
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+console.log("🚀 App using API_URL:", API_URL);
 console.log(API_URL);
 // State management
 let currentView = "home";
