@@ -11,7 +11,12 @@ const CONFIG = {
   // API_URL: '/api',
 };
 
+window.CONFIG = CONFIG;
+
 // Override with environment variable if available (for advanced setups)
 if (typeof process !== "undefined" && process.env?.VITE_API_URL) {
   CONFIG.API_URL = process.env.VITE_API_URL;
 }
+
+// Debug log to verify it's loaded
+console.log("✅ Config loaded, API_URL:", window.CONFIG.API_URL);
