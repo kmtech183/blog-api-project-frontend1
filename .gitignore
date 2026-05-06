@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+generated/
+test/
+database/
+database/populatedb.js
+database/schema.sql
+
+# environment variables
+.env
+.env.local
+.env.production
+
+# logs
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# build / temp
+dist/
+build/
+.tmp/
+
+# VS Code (optional)
+.vscode/
+
+
+#/author-dashboard/.env
+#/author-dashboard/node_modules/
