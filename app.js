@@ -3,7 +3,8 @@
 
 // const API_URL = window.CONFIG?.API_URL || "http://localhost:5000/api";
 // app.js - Vite approach (no window object needed)
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+// const API_URL = "http://localhost:5000/api";
+const API_URL = "https://blog-api-project-backend-iixp.onrender.com/api";
 console.log("🚀 App using API_URL:", API_URL);
 console.log(API_URL);
 // State management
