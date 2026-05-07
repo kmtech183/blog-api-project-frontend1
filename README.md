@@ -4,9 +4,9 @@ A complete blog platform with separate backend API, public blog frontend, and au
 
 ## 🚀 Live Demo
 
-- **Public Blog**: [https://your-blog.vercel.app](https://blog-api-project-frontend1-blogkm.vercel.app/)
-- **Author Dashboard**: [https://your-dashboard.vercel.app](https://blog-api-project-frontend2-auth.vercel.app)
-- **Backend API**: [https://your-api.onrender.com](https://blog-api-project-backend-iixp.onrender.com/)
+- **Public Blog**: [https://blog-api-project-frontend1-blogkm.vercel.app/](https://blog-api-project-frontend1-blogkm.vercel.app/)
+- **Author Dashboard**: [https://blog-api-project-frontend2-auth.vercel.app](https://blog-api-project-frontend2-auth.vercel.app)
+- **Backend API**: [https://blog-api-project-backend-iixp.onrender.com/api/posts](https://blog-api-project-backend-iixp.onrender.com/api/posts)
 
 ## 🛠 Tech Stack
 
